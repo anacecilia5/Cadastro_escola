@@ -29,7 +29,50 @@ public class Aluno extends Pessoa{
    
   public Aluno(int nota, double media, String nome, String endereco, int telefone){
      super(nome, endereco, telefone);
-    this.nota = nota;
-    this.media = media;
+       this.nota = nota;
+       this.media = media;
   }
+  
+    @Override
+    public void apresentar(){
+      System.out.println( "Olá, sou o aluno."  + this.getNome());
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

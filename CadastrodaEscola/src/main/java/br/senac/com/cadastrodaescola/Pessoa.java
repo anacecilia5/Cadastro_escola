@@ -40,6 +40,25 @@ public class Pessoa {
      this.telefone = telefone;
      
    }
+   
+   public void apresentar(){
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+   }
 } 
    
 

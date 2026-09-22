@@ -13,10 +13,12 @@ public class CadastrodaEscola {
     public static void main(String[] args) {
       Professor professor = new Professor(10000.55, 12456789, "Tiago", "Ceilandia", 99876543);
       
-      professor.getClass();
+      professor.apresentar();
       
       Aluno aluno = new Aluno(6, 6.5, "Daniel", "Ceilandia", 65928774);
       
-      aluno.getNome();
+      aluno.apresentar();
+      
+     
     }
 }
